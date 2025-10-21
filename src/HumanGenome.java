@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 
 /*
-Assignment 2a
-Personal Information Class
+Assignment 2
+ Geno-Nucleic Acid and Human Genome (PART 1)
 
 1. DESIGN
 
@@ -13,24 +13,24 @@ For this particular exercise, we will limit the database size to 3 individuals, 
 bravo, and charlie.
 
 Each person will have their data inputted through the scanner.
-There are two classes: Driver and Person. Driver will be what calls the methods in Person to
-input, store, and display data.
+There are two classes: HumanGenome and GenomeInput. HumanGenome will be what calls the methods in
+GenomeInput to input, store, and display data.
 
-Driver has 2 methods: main and readValue. Main provides the commands on how the program is to run.
-readValue is in charge of recording data that will be collected in Person class and then displayed
-through a method in Person.
+HumanGenome has 2 methods: main and readValue. Main provides the commands on how the program is to run.
+readValue is in charge of recording data that will be collected in GenomeInput class and then displayed
+through a method in GenomeInput.
 
 
 2. VARIABLES pt1
 
 The main variables here are the identifiable information:
 
-    string name
-    string address
-    int age
-    string phone_number
+    String genome name,
+    String genome_number,
+    int chromosome_number,
+    String cell_number
 
-These are designed and then implemented in Person class.
+These are designed and then implemented in GenomeInput class.
 
 */
 
@@ -38,8 +38,8 @@ These are designed and then implemented in Person class.
 
 3. PROCESSING pt1
 
-This is the processing of the main method in the Driver class. It's telling the program
-to perform the same tasks as outlined in readValue and Person per person.
+This is the processing of the main method in the HumanGenome class. It's telling the program
+to perform the same tasks as outlined in readValue and GenomeInput per person.
 
  */
 

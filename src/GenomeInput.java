@@ -11,7 +11,7 @@ public class GenomeInput {
 
     This is where the data is processed. The data will be cached into the instance variables through the
     this.<variable> keyword. this.<variable> ensures that the specific instance variable is where the data
-    will be cached. After reassigning, the method will be called again in Driver class.
+    will be cached. After reassigning, the method will be called again in HumanGenome class.
 
      */
 //overloaded (to upload)
@@ -62,8 +62,8 @@ public class GenomeInput {
 
     5. PRINT
 
-    The data is printed in this method. This method is called in the Driver class. For each person,
-    the printer will print the name, genomeNumber, chromosomeNumber, and phone number that has been inputted.
+    The data is printed in this method. This method is called in the HumanGenome class. For each person,
+    the printer will print the genomeName, genomeNumber, chromosomeNumber, and cellNumber that has been inputted.
 
      */
     public void print() {
