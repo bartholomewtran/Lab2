@@ -66,3 +66,58 @@ public class GenoNucleicAcid {
         return new NucleicAcid(nucleic_name, chemical_formula, molar_mass, density);
     }
 }
+
+/* OUTPUT
+
+Nucleic name:
+Nuc Alfa
+Chemical formula: 
+abc123
+Molar mass:
+30
+Density:
+2
+---------------------------------------------
+This is the data of the person you entered:
+
+Nucleic name: Nuc Alfa
+Chemical formula: abc123
+Molar Mass: 30
+Density: 2
+----------------------------------------------
+
+Nucleic name:
+Nuc Beta
+Chemical formula: 
+abc234
+Molar mass:
+4
+Density:
+1
+---------------------------------------------
+This is the data of the person you entered:
+
+Nucleic name: Nuc Beta
+Chemical formula: abc234
+Molar Mass: 4
+Density: 1
+----------------------------------------------
+
+Nucleic name:
+Nuc Charlie
+Chemical formula: 
+ccc213
+Molar mass:
+65
+Density:
+3
+---------------------------------------------
+This is the data of the person you entered:
+
+Nucleic name: Nuc Charlie
+Chemical formula: ccc213
+Molar Mass: 65
+Density: 3
+----------------------------------------------
+
+ */
